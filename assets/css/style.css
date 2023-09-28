@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Top head Section Start */
+.tophead{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#05571d;
+}
+.tophead ul li{
+    display: inline-block;
+    margin: 0px 5px;
+    color: #FFF;
+}
+.tophead ul li a{
+    color: #87d88b;
+}
+/* Top head Section End */
+/* Header Section End */
+header{
+    width: 100%;
+    height: 100px;
+    color:#fff;
+    padding: 0px 100px;
+    line-height: 100PX;
+    background: rgb(82, 190, 82)
+}
+header h1{
+    font-size: 50px;
+    margin-right: 20px;
+
+}
+header h1, header h3{
+    display: inline-block;
+    
+}
+/* Header Section Start */
+/* Navbar Section Start */
+nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background:#83e3a0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#000;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: 0.3s linear
+}
+/* Navbar Section End */
+/* content section Start */
+section{
+    width: 100%;
+    padding: 0px 100px;
+}
+section main{
+    width: 80%;
+    float:left;
+    padding-top: 20px;
+}
+section aside{
+    width: 20%;
+    float: right;
+    padding: 20px 15px;
+    background: #b9dbbe;
+}
+
+/* main Section Start */
+section main .two{
+    padding-right: 15px;
+}
+/* main Section End */
+aside ul li{
+    font-weight:600;
+    list-style:none;
+}
+aside ul li ul li{
+    padding-left: 20px;
+    font-weight: normal;
+}
+/* content section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height:105px;
+    color: #fff;
+    padding: 10px 100px;
+    background:#05571d;
+    display: flex;
+    justify-content: space-between;
+}
+footer .link{
+    width: 33%;
+    float: left;
+}
+footer .follow{
+    width:33%;
+    float: left;
+
+}
+footer .copy{
+    width: 34%;
+    float: right;
+    text-align:right;
+    color:rgb(82, 190, 82);
+}
+footer ul{
+    list-style: none;
+}
+footer h4{
+    color:rgb(82, 190, 82);
+    padding: 2px 2px;
+}
+/* Footer Section End */
